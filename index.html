@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+ input{
+width: 400px;
+height: 35px;
+border: 5px solid rgb(23, 219, 52);
+font-size: 20px;
+}
+#btn{
+    background-color: rgb(15, 239, 26);
+    color: azure;
+    font-size: 20px;
+    border-radius: 0px 50px;
+}
+#btn:hover{
+    background-color: rgb(114, 16, 188);
+}
+span{
+    color: red;
+    font-size: 20;
+}
+   </style>
+   
+   
+   
+</head>
+<body>
+    <form action="#"autocomlete="off" onsubmit="return validation()">
+        <table cellspacing="10" align="center">
+            <tr> <td><input type="text" id="user" placeholder="Name">
+               <br> <span id="userr"></span>
+            </td></tr>
+            <tr> <td><input type="password" id="pass" placeholder=" password">
+                <br><span id="passs"></span>
+            </td></tr>
+            <tr> <td><input type="text" id="confrom" placeholder="confrom password">
+                <br> <span id="confromm"></span>
+            </td></tr>
+            <tr> <td><input type="email" id="Email" placeholder=" email">
+                <br> <span id="Emaill"></span>
+            </td></tr>
+            <tr> <td><input type="text" id="number" placeholder=" Number">
+                <br>  <span id="numberr"></span>
+            </td></tr>
+            <tr> <td><input type="submit" id="btn" placeholder="">
+                <br>  <span id="submitt"></span>
+            </td></tr>
+        </table>
+    </form>
+   <script src="script.js"></script>
+</body>
+</html>
